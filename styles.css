@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    html{
+        direction: rtl;
+        scroll-behavior: smooth;
+    }
+}
+body{
+    font-family: Vazir;
+    background-color: darkslateblue;
+}
+ul{
+    list-style-type: none;
+    padding-right: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#header{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+#header .logo-link{
+    line-height: 0;
+}
+
+#header .logo-link .logo-img{
+    width: 60px;
+
+}
+
+#header .navbar-list{
+    display:flex;
+    gap: 30px;
+}
+
+
+#header .header-contact-link{
+    background: darkslateblue;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 10px;
+}
+#header .header-contact-link .contact-icon{
+    margin-right: 5px;
+}
+
+.menu-list{
+    display: flex;
+    gap: 20px;
+    justify-content:space-around;
+    margin: 80px 40px;
+
+
+}
+.menu-list .menu-item{
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 18px;
+    width: 29%;
+    color: white;
+    padding: 20px;
+}
+img{
+    width: 100%;
+}
+.menu-list .menu-item .menu-img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
+
+.menu-list .menu-item .menu-title{
+    border-top: 1px solid white;
+    padding-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+.menu-list .menu-item .menu-info-box{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.menu-list .menu-item .menu-info-box .order-link{
+    background: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#footer{
+    background: white;
+    padding: 20px;
+    padding-top: 40px;
+
+}
+#footer .footer-info-box{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+}
+
+#footer .footer-info-box .footer-section{
+    width: 50%;
+}
+
+#footer .footer-info-box .footer-section .footer-title{
+    margin-bottom: 10px;
+}
+
+#footer .footer-info-box .footer-section  .footer-text{
+    line-height: 35px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+#footer .footer-info-box .footer-section  .footer-list .footer-link{
+    margin-bottom: 30px;
+}
+
+#footer .go-top-link{
+    background: darkslateblue;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
